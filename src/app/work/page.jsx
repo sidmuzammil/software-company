@@ -1,4 +1,5 @@
 import PageIntro from "@/components/PageIntro";
+import WorkDesplay from "@/components/workDesplayarea/WorkDesplay";
 import React from "react";
 
 const WorkPage = () => {
@@ -13,6 +14,7 @@ const WorkPage = () => {
           best value to our clients. The primary way we do that is by re-using
           the same five projects we’ve been developing for the past decade.
         </p>
+        <WorkDesplay/>
       </PageIntro>
     </>
   );
